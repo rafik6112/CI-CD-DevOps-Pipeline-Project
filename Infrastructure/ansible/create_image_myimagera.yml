@@ -1,0 +1,15 @@
+---
+- hosts: ansible
+  user: root
+
+  tasks:
+    - name: create docker image
+      command: docker build -t myimagera:latest
+      args:
+        chdir: /opt/docker
+
+    - name: create tag to push image onto dockerhub
+      command: docker tag myimagera.yml:latest rafik2600/myimagera:latest
+
+    - name: push docker image
+      command: docker push rafik2600/myimagera.yml
