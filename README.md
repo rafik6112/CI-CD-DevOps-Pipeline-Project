@@ -1,7 +1,10 @@
-![alt text](webapp/src/main/webapp/WEB-INF/CI-CD-DevOps-Pipeline-Project.png)
+# CI-CD-DevOps-Pipeline-Project
 
 
-**Étapes de configuration manuelle dans Jenkins pour la partie integration continue pour `myP1_CI_Job` :**
+![kubegetall](https://github.com/user-attachments/assets/4a1a7acd-eb77-4c3d-ab52-91d714fc93b0)![alt text](webapp/src/main/webapp/WEB-INF/CI-CD-DevOps-Pipeline-Project.png)
+
+
+## Étapes de configuration manuelle dans Jenkins pour la partie integration continue pour `myP1_CI_Job` :**
 
  (Freestyle Project)
 
@@ -71,23 +74,20 @@
 
         kubectl get services
    
-![Capture d’écran du 2024-09-22 18-20-57](https://github.com/user-attachments/assets/33cb46fd-ddba-4d66-9cdc-72f6e178a024)
+![Capture d’écran du 2024-09-22 18-20-57](Prometheus-Grafana/img/kubectlgetservices.png)
 
 Utilisez les adresses suivantes pour accéder à Prometheus et Grafana :
 
-Prometheus : http://<IP_EXTERNE>:30090/
+Prometheus : http://10.110.149.93:30090/
 
-Grafana : http://192.168.49.2:31170/
+Grafana : http://10.110.110.184:31170/
 
 On peut paramétrer les alertes dans Prometheus comme dans ce qui suit.
-![Capture d’écran du 2024-09-22 18-27-13](https://github.com/user-attachments/assets/dd323f3d-072b-4187-8f85-d1018eb11ed4)
+![Capture d’écran du 2024-09-22 18-20-57](Prometheus-Grafana/img/prometheus-Alerts.png)
 
 Avoir accès aux tableaux de bord.
-![Capture d’écran du 2024-09-22 18-28-24](https://github.com/user-attachments/assets/69656509-3750-4386-8b75-09de306ef814)
+![Capture d’écran du 2024-09-22 18-20-57](Prometheus-Grafana/img/Dashboards.png)
 
 
  
 
-
-
-# CI-CD-DevOps-Pipeline-Project
