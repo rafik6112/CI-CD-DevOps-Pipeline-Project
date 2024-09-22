@@ -1,7 +1,7 @@
 # CI-CD-DevOps-Pipeline-Project
 
 
-![kubegetall](https://github.com/user-attachments/assets/4a1a7acd-eb77-4c3d-ab52-91d714fc93b0)![alt text](webapp/src/main/webapp/WEB-INF/CI-CD-DevOps-Pipeline-Project.png)
+![alt text](webapp/src/main/webapp/WEB-INF/CI-CD-DevOps-Pipeline-Project.png)
 
 
 ## Étapes de configuration manuelle dans Jenkins pour la partie integration continue pour `myP1_CI_Job` :**
