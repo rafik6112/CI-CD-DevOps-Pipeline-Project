@@ -49,23 +49,23 @@
 
   ## Étapes de configuration manuelle pour le Monitoring avec Prometheus/Grafana:
 
-* Installation de Prometheus et Grafana via Helm
+ Installation de Prometheus et Grafana via Helm
 
-    -Ajoutez le dépôt Helm de Prometheus et mise à jour avec les commandes suivantes :
+-Ajoutez le dépôt Helm de Prometheus et mise à jour avec les commandes suivantes :
 
-          helm repo add prometheus-community https://prometheus-community.github.io/helm-charts**
+          helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
           helm repo update**
 	
    - Installation de Prometheus et Grafana
 	
-	Création d'un fichier custom-values.yaml avec les configurations suivantes pour exposer Prometheus et Grafana via des NodePorts.
+     Création d'un fichier custom-values.yaml avec les configurations suivantes pour exposer Prometheus et Grafana via des NodePorts.
 	Ensuite, installez le chart Helm avec la commande suivante :
 	
-	**helm upgrade --install kube-prometheus-stack prometheus-community/kube-prometheus-stack -f custom-values.yaml**
+         helm upgrade --install kube-prometheus-stack prometheus-community/kube-prometheus-stack -f custom-values.yaml
 	
   - Accès à Prometheus et Grafana
 
-        Pour accéder à Prometheus et Grafana, suivez ces étapes :
+    Pour accéder à Prometheus et Grafana, suivez ces étapes :
 
   - Obtenir l'IP externe de vos nœuds avec :
 
