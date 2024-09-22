@@ -51,7 +51,7 @@
 
  Installation de Prometheus et Grafana via Helm
 
--Ajoutez le dépôt Helm de Prometheus et mise à jour avec les commandes suivantes :
+- Ajoutez le dépôt Helm de Prometheus et mise à jour avec les commandes suivantes :
 
           helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
           helm repo update**
@@ -76,7 +76,8 @@
 Utilisez les adresses suivantes pour accéder à Prometheus et Grafana :
 
 Prometheus : http://<IP_EXTERNE>:30090/
-Grafana : http://192.168.49.2:31170
+
+Grafana : http://192.168.49.2:31170/
 
 On peut paramétrer les alertes dans Prometheus comme dans ce qui suit.
 ![Capture d’écran du 2024-09-22 18-27-13](https://github.com/user-attachments/assets/dd323f3d-072b-4187-8f85-d1018eb11ed4)
